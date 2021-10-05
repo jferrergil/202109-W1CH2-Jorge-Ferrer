@@ -46,7 +46,7 @@ function calculatorPro() {
   }
 
   const continuar = confirm("¿Quiere continuar?");
-  if (continuar == true) {
+  if (continuar) {
     calculatorPro();
   } else {
     console.log("¡Adios!");

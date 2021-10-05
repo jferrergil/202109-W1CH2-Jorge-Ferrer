@@ -2,11 +2,11 @@ let numero1;
 let numero2;
 
 function calculadora() {
-  let numero1 = parseInt(prompt("Escriba el primer numero de la operacion:"));
+  numero1 = parseInt(prompt("Escriba el primer numero de la operacion:"));
   if (isNaN(numero1)) {
     alert("Introduzca un numero");
   }
-  let numero2 = parseInt(prompt("Escriba el segundo numero"));
+  numero2 = parseInt(prompt("Escriba el segundo numero"));
   if (isNaN(numero2)) {
     alert("Introduzca un numero");
   }
